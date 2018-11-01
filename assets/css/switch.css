@@ -1,0 +1,126 @@
+.onoffswitch {
+    position: relative; width: 129px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+
+.switch_container {
+    text-align: center;
+}
+
+
+.onoffswitch_container {
+    
+    width: 129px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+
+.onoffswitch_container_gender {
+    
+    width: 129px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.switch_container_gender {
+    float: left;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.sign_up_gender {
+    height: 80px;
+    width: 50px;
+    float: left;
+    margin-top: 30px;
+    line-height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 80px; padding: 0; line-height: 80px;
+    min-height: 80px;
+    border: 3px solid #CCCCCC; 
+    border-radius: 80px;
+    background-color: #FF6384;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 80px; margin: 0px;
+    min-width: 80px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 46px;
+    border: 1px solid #CCCCCC; border-radius: 80px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #40a0d8;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #40a0d8;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+
+
+/* remove this later */
+.sign_up_switch_status {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #FF6384;
+    font-size: 30px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+}
+
+.sign_up_female {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #FF6384;
+    font-size: 30px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+}
+
+#sign_up_female {
+    background-image: url('../img/icons/female.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#sign_up_male {
+    background-image: url('../img/icons/male.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sign_up_field_check {
+    top: 30px;
+    float: right;
+}
+
+.sign_up_field_check_button {
+    opacity: 0.0;
+    cursor: pointer;
+}

@@ -1,0 +1,593 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+.sign_up_content_question {
+    /*height: 10%;
+    width: 60%;*/
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+    margin-top: 10%;
+    padding-bottom: 20px;
+    /*text-align: center;*/
+    color: #ddd;
+    font-size: 20px;
+    font-family: 'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+}
+
+.acc_holder_div {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.acc_icon {
+    width: 30px;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 20px;
+    float: left;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.acc_name {
+    width: 100px;
+    height: 40px;
+    margin-left: 15%;
+    float: left;
+    color: #59616a;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    /*line-height: 40px;*/
+    margin-top: 15px;
+}
+.acc_num {
+    width: 100px;
+    height: 30px;
+    margin-left: 15%;
+    float: right;
+    color: #59616a;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.card_num {
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+    float: left;
+    color: #59616a;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card_container {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    float: left;
+    margin: 20px;
+    background-color: #eee;
+    width: 60%;
+    border: 1px #aaa solid;
+}
+
+.card_added {
+    width: 60%;
+    height: 30%;
+    margin-left: 5%;
+    float: left;
+    color: #aaa;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card_exp {
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    float: left;
+    color: #444;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.fave_selected_option {
+    background-image: url(../img/icons/fave_selected.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.trash_option {
+    background-image: url(../img/icons/trash.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card_option {
+    width: 50%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.card_option_cover {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+}
+
+.initial_trans {
+    opacity: 0.0;
+}
+
+.add_icon {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 40%;
+    color: #aaa;
+    line-height: 60px;
+    font-family: 'Montserrat', 'Raleway', 'Quicksand';
+    border: 2px #aaa solid;
+    text-align: center;
+}
+
+.add_icon:hover {
+    opacity: 0.5;
+}
+.option_holder {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.alert_overlay {
+    background-size: cover;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    opacity: 0.0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+    overflow: scroll;
+}
+
+.alert_overlay_container {
+    z-index: 100001;
+    position: relative;
+    background-color: #fff;
+    width: 450px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 1px solid #59616a;
+}
+
+/*@media screen and (max-width: 960px)
+.loan_app_overlay {
+}*/
+
+.loan_app_overlay {
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    vertical-align: middle;
+    overflow: scroll;
+}
+
+.loan_app_overlay_container_new_card {
+    z-index: 10001;
+    position: relative;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.select_safari {
+    -webkit-appearance: none;
+}
+
+.dropdown_towns {
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #9fa3a6;
+    -webkit-appearance: none;
+}
+
+.new_card_textbox {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    color: #444;
+    font-size: 12px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    border: 1px solid #aaa;
+}
+
+.new_card_button_container {
+    width: 100%;
+    float: left;
+    height: auto;
+    bottom: 0;
+    text-align: center;
+    position: absolute;
+}
+
+#new_card_block_pay {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    position: absolute;
+}
+
+.invoice_block_pay {
+    width: 100%;
+    height: 60px;
+    margin-left: 0px;
+    margin-bottom: 0px !important;
+    bottom: 0 !important;
+    background-color: #40a0d8;
+    position: absolute;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #fff;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sticky_reset {
+    padding: 0.9ex;
+    width: auto;
+    min-width: 90px;
+    height: auto;
+    margin-right: 15px;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #40a0d8;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fint_btn {
+    padding: 0.9ex;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #40a0d8;
+    border-color: #1c99cd;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.apply_button {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    padding-top: 15px;
+    float: right;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #40a0d8;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.loan_row {
+    width: 100%;
+    height: 100px;
+    float: left;
+    border-bottom: 1px #ddd solid;
+    box-shadow: none;
+}
+
+.loan_row:hover {
+    background-color: #f9f9f9;
+}
+
+#loan_data_container {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+#loan_data_sidebar_container {
+    background-color: #e4e4e4;
+    height: 400px;
+    width: 8%;
+    text-align: center;
+    float: left;
+}
+.loan_data_info {
+    background-color: #f9f9f9;
+    height: 400px;
+    width: 92%;
+    text-align: center;
+    float: left;
+    overflow: scroll;
+}
+.loan_data_inner_notes {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    overflow: scroll;
+}
+.loan_data_inner_write_up {
+    width: 90%;
+    height: 100%;
+    text-align: left;
+    padding: 1%;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #444;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    overflow: scroll;
+}
+.info_blk {
+    background-color: #f9f9f9 !important;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.loan_data_inner_info {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+}
+.loan_data_option {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    height: 50px;
+    color: #444;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    float: left;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+.purpose_button {
+    width: auto;
+    height: 40px;
+    line-height: 30px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #2080b8;
+    margin-right: 10px;
+    border: 1px solid #2080b8;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.error{
+    display: none;
+    margin-left: 10px;
+}
+
+.error_show{
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}
+
+.tran_pin_input {
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    /*font-family: 'Avenir', 'Montserrat', 'Quicksand';*/
+    font-size: 30px;
+    color: #444;
+    text-align: center;
+    border: none;
+    border-bottom: 1px #aaa solid;
+}
+
+#sidebar_help_button {
+    width: 150px;
+    text-align:center;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    /*background: #1a3d5d;*/
+    background: #1f364b;
+    display: inline-block;
+    font-size: 13px;
+    color: #d9dde1;
+    font-weight: 700;
+    box-shadow: 0 5px 6px rgba(0,0,0,.05);
+    position: relative;
+    padding: 0 15px;
+    margin-left: 35px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    transform: translateY(-55px);
+    -webkit-transform: translateY(-55px);
+}
+
+/**
+----- Graph Block Css ----
+ */
+.grade_containers {
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#graphic_grades {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+}
+
+.g_summary_block {
+    float: left;
+    width: 95%;
+    height: auto;
+    min-height: 30px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    padding-top: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.g_summary_block_third {
+    float: left;
+    width: 32%;
+    height: auto;
+    min-height: 30px;
+    padding-bottom: 10px;
+    margin-left: 1%;
+    padding-top: 40px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.g_grade_block {
+    float: left;
+    width: 20%;
+    height: 30%;
+    margin-left: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.g_grade_block_title {
+    width: 70%;
+    height: 100%;
+    text-align: left;
+    font-size: 13px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #59616a;
+    float: left;
+}
+.g_grade_figure {
+    font-size: 13px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #40a0d8;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.g_summary_block_subtitle {
+    width: 40%;
+    height: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #59616a;
+    float: left;
+}
+.g_summary_subfigure {
+    font-size: 14px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #777;
+    width: 40%;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+.g_summary_block_title {
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #444;
+    float: left;
+}
+.g_summary_figure {
+    font-size: 20px;
+    font-family:  'Avenir', 'Montserrat', 'Lato', 'Montserrat', 'Raleway', 'Quicksand', sans-serif;
+    color: #40a0d8;
+    width: 50%;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
