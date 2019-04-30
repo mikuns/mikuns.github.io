@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9892cf0d-2716-4019-b53e-bb27521cb609" name="Default" comment="ok">
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/jquery.scrollex.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/jquery.scrolly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/extra/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comb.php" afterDir="false" />
+    <list default="true" id="9892cf0d-2716-4019-b53e-bb27521cb609" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/doc/Samuel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/doc/Samuel.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/misc.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +17,7 @@
       <file leaf-file-name="misc.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/misc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1190">
+            <state relative-caret-position="4688">
               <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
             </state>
           </provider>
@@ -37,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="251" column="98" selection-start-line="251" selection-start-column="98" selection-end-line="251" selection-end-column="98" />
+            <state relative-caret-position="351">
+              <caret line="462" column="60" selection-start-line="462" selection-start-column="60" selection-end-line="462" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -156,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,37 +158,10 @@
               <item name="mikuns.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mikuns.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mikuns.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mikuns.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mikuns.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mikuns.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mikuns.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mikuns.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mikuns.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +218,8 @@
       <workItem from="1547470901230" duration="2416000" />
       <workItem from="1551192479499" duration="598000" />
       <workItem from="1551213424057" duration="514000" />
-      <workItem from="1551264448475" duration="2990000" />
+      <workItem from="1551264448475" duration="3793000" />
+      <workItem from="1556621924187" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1541106201976</created>
@@ -383,17 +347,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546943759908</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ok">
+      <created>1551269074073</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551269074073</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61151000" />
+    <option name="totallyTimeSpent" value="62664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17813765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1805668" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32922536" />
@@ -783,15 +754,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/misc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
+        <state relative-caret-position="4688">
           <caret line="293" column="28" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="251" column="98" selection-start-line="251" selection-start-column="98" selection-end-line="251" selection-end-column="98" />
+        <state relative-caret-position="351">
+          <caret line="462" column="60" selection-start-line="462" selection-start-column="60" selection-end-line="462" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
